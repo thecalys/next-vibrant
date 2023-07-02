@@ -1,0 +1,22 @@
+
+
+.container {
+  @apply flex flex-row bg-zinc-500 w-full h-24 rounded-md gap-2 p-2;
+}
+
+.item {
+  @apply h-full rounded-md flex justify-center items-center;
+
+  
+  content: '';
+
+  min-width: 2rem;
+
+  aspect-ratio: 3 / 1;
+}
+
+.loading {
+  @apply bg-zinc-200 text-zinc-800 w-full h-full rounded-md;
+  flex: 1;
+  font-size: 1.75rem;
+}
