@@ -1,6 +1,6 @@
 import '~/styles/globals.css'
 import type { AppProps } from 'next/app'
-import { Inter, Roboto_Mono as MonoFont } from 'next/font/google';
+import { Inter, Fira_Code as MonoFont } from 'next/font/google';
 
 export const inter = Inter({
   subsets: ['latin'],
